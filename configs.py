@@ -18,11 +18,11 @@ class Config(object):
 	DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
 	PRESET = os.environ.get("PRESET", "ultrafast")
 	OWNER_ID = int(os.environ.get("OWNER_ID", 6859451629))
-	CAPTION = "By @AHToolsBot"
+	CAPTION = "By @IMAXMOVIEHUB"
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "VideoWatermark_Bot")
 	DATABASE_URL = os.environ.get("DATABASE_URL")
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
-	ALLOW_UPLOAD_TO_STREAMTAPE = bool(os.environ.get("ALLOW_UPLOAD_TO_STREAMTAPE", False))
+	ALLOW_UPLOAD_TO_STREAMTAPE = bool(os.environ.get("ALLOW_UPLOAD_TO_STREAMTAPE", True))
 	USAGE_WATERMARK_ADDER = """
 Hi, I am Video Watermark Adder Bot!
 
